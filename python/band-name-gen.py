@@ -1,0 +1,5 @@
+print("band name generator")
+name = input("whats your town name? \n")
+pet = input("whats your pet name? \n")
+print ("sugest1 : " + pet,name)
+print ("sugest2 : " + name,pet )
