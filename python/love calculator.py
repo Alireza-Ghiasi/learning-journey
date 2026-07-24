@@ -1,9 +1,8 @@
 print ("welcome to the love calculator ... ")
 name1=input("whats your name ? ")
 name2=input("whats their name ? ")
-name1lower = name1.lower()
-name2lower = name2.lower()
-uniname = name1lower + name2lower 
+uninameA = name1 + name2
+uniname = uninameA.lower()
 countt=uniname.count("t")
 countr=uniname.count("r")
 countu=uniname.count("u")
@@ -14,4 +13,5 @@ counto=uniname.count("o")
 countv=uniname.count("v")
 counte=uniname.count("e")
 rate2=str(countl+counto+countv+counte)
-final =int(rate1+rate2)
+final = int(rate1+rate2)
+print(final)
