@@ -15,3 +15,9 @@ counte=uniname.count("e")
 rate2=str(countl+counto+countv+counte)
 final = int(rate1+rate2)
 print(final)
+if final < 10 or final > 90 :
+    print(f"your love score is {final} and you go together lik coke and mentos")
+elif final >=40 and final <=50 :
+    print (f"your love score is {final} and you are alright together")   
+else :
+    print(f"your love score is {final}")
