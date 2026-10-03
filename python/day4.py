@@ -1,4 +1,6 @@
-import random
-numrand = random.randint (1,6)
-numrand2 = random.randint(1,6)
-print(numrand , numrand2)
+import random as rn
+numrand = rn.randint (1,2)
+if numrand == 2 :
+    print("heads")
+else :
+    print("tails")    
