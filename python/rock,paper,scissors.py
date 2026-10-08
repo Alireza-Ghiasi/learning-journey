@@ -31,8 +31,10 @@ choices = ['''
 
 user = int(input("enter 0 for rock, 1 for paper, 2 for scissors ..."))
 airn = rn.randint(0,2)
+
+
 if user not in [0, 1, 2]:
-    print("invalid choice!")
+    print("invalid choice! you lose!")
     exit()
 if user == airn :
     print (f"computer chose {choices[airn]} \n you chose {choices[user]}\n ... draw!!!!") 
