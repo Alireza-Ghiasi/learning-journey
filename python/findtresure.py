@@ -12,13 +12,14 @@ chance = 3
 
 while chance > 0:
 
-    guss = input("Where is the treasure? horizontal and vertical: ")
+    guss = input("Where is the treasure? horizontal and vertical 3*3: ")
 
     hor = int(guss[0])
     ver = int(guss[1])
 
     if map[ver - 1][hor - 1] == "x":
         print("Congratulations!!!! You found the treasure!")
+        print(f"{row1}\n{row2}\n{row3}")
         break
 
     else:
